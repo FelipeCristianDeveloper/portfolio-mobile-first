@@ -55,7 +55,7 @@
     right: 0px;
     list-style: none;
     transition: .2s ease-in-out;
-    height: calc(100vh - 8vh);
+    height: calc(100vh - 7vh);
     width: 0;
     background-color: var(--background-color);
     display: flex;
