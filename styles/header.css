@@ -64,12 +64,10 @@
     align-items: center;
     gap: 6rem;
     overflow-y: hidden;
-    opacity: 0;
 }
 
 .menu__list.active{
-    opacity: 1;
-    width: 50%;
+    width: 50%; 
 }
 
 .menu__list__item{
@@ -82,6 +80,7 @@
     padding-bottom: 10px;
     border-radius: 5px;
     border-bottom: 2px solid var(--color-text);
+   
 }
 
 .menu__list__item span{
