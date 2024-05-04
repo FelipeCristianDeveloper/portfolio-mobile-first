@@ -4,8 +4,13 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 7vh);
+    width: 100vw;
     padding: 10%;
     color: var(--background-color);
+    background-image: url(../img/pexels-goumbik-1420709.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 15px 70px inset black;
     gap: 50px;
     
 }
@@ -38,6 +43,7 @@
 
 .banner__text:nth-child(3){
     font-size: 1.2rem;
+    letter-spacing: 1px;
     padding: 10px;
     border-bottom: 2px solid var(--color-destaque);
 }
@@ -45,7 +51,6 @@
 .banner__img{
     width: 15rem;
     border-radius: 1rem;
-    padding-top: 1rem;
     border-bottom: 5px solid var(--color-destaque);
 }
 
@@ -53,9 +58,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1.5rem;
     gap: 30px;
 }
 
 .banner__links_img img{
     width: 50px;
+    padding: 5px;
+    border-radius: .5rem;
+    background-color: var(--background-color);
+    box-shadow: 2px 2px 5px var(--background-color);
 }
